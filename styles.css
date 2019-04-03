@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eae6e5;
+}
+
+.banner__div {
+    height: 60vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.seventy__percent__wrapper {
+    width: 70%;
+    background-color: #b1ccdb;
+    margin: auto;
+    text-align: center;
+}
+
+.intro {
+    line-height: 4rem;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.temples__div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.temples__temple h4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.temples__temple p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.temples__temple img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
