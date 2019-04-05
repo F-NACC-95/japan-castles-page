@@ -5,17 +5,47 @@
 
 body {
     background-color: #eae6e5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner__div {
-    height: 60vh;
+    height: 40vh;
     width: 100%;
     margin: auto;
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    border-bottom: 3px solid #698dc6;
+}
+
+.navbar {
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #698dc6;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar li {
+    display: inline;
+    padding-right: 4rem;
+    font-size: 1.7rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner__h1 {
+    font-size: 4.4rem;
+    text-align: center;;
 }
 
 .seventy__percent__wrapper {
+    padding-top: 4rem;
     width: 70%;
     background-color: #b1ccdb;
     margin: auto;
