@@ -4,24 +4,24 @@
 }
 
 body {
-    background-color: #eae6e5;
+    background-color: #e1eef7;
     font-family: 'Montserrat', sans-serif;
 }
 
 .banner__div {
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     margin: auto;
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
-    border-bottom: 3px solid #698dc6;
+    border-bottom: 3px solid #ff4444;
 }
 
 .navbar {
     margin: auto;
     text-align: center;
-    border-bottom: 1px solid #698dc6;
+    border-bottom: 1px solid #ff4444;
     padding-bottom: 2rem;
     padding-top: 2rem;
     background-color: rgba(0, 0, 0, 0.3);
@@ -47,7 +47,7 @@ body {
 .seventy__percent__wrapper {
     padding-top: 4rem;
     width: 70%;
-    background-color: #b1ccdb;
+    background-color: #fff;
     margin: auto;
     text-align: center;
 }
@@ -89,7 +89,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
     width: 70%;
-    background-color: #6583b5;
+    background-color: #d8d8d8;
     padding-top: 3rem;
     padding-bottom: 3rem;
     line-height: 1.6rem;
