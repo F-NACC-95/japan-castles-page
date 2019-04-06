@@ -95,3 +95,28 @@ body {
     line-height: 1.6rem;
     color: black;
 }
+
+@media only screen and (max-width: 1000px) {
+    .temples__div {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar li {
+        padding-right: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .seventy__percent__wrapper {
+        width: 100%;
+    }
+
+    .banner__div {
+        height: 25vh;
+    }
+
+    .footer__grid__div {
+        width: 100%;
+    }
+}
