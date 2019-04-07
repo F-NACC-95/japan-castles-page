@@ -1,3 +1,5 @@
+/* General */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +9,8 @@ body {
     background-color: #e1eef7;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Banner */
 
 .banner__div {
     height: 45vh;
@@ -18,19 +22,20 @@ body {
     border-bottom: 3px solid #ff4444;
 }
 
+/* Navbar */
+
 .navbar {
     margin: auto;
     text-align: center;
-    border-bottom: 1px solid #ff4444;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar li {
     display: inline;
     padding-right: 4rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .navbar li a {
@@ -52,6 +57,8 @@ body {
     text-align: center;
 }
 
+/* Intro */
+
 .intro {
     line-height: 4rem;
     text-align: left;
@@ -61,28 +68,44 @@ body {
     padding-bottom: 5rem;
 }
 
-.temples__div {
+/* Castles */
+
+.castles__div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.temples__temple h4 {
+.castles__castle h4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.temples__temple p {
+.castles__castle p {
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 80%;
     margin: auto;
 }
 
-.temples__temple img{
+.castles__castle img{
     width: 300px;
     height: 200px;
     object-fit: cover;
+    border-radius: 5px;
 }
+
+.castles__castle:hover{
+    background-color: #ced8e8;
+}
+
+.castles__castle p {
+    width: 70%;
+    line-height: 2.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Footer */
 
 .footer__grid__div {
     display: grid;
@@ -95,6 +118,8 @@ body {
     line-height: 1.6rem;
     color: black;
 }
+
+/* Media */
 
 @media only screen and (max-width: 1000px) {
     .temples__div {
