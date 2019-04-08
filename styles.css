@@ -24,7 +24,11 @@ li {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
-    border-bottom: 3px solid #ff4444;
+    border-bottom: 3px solid #f96b6b;
+}
+
+.banner__div a:hover {
+    color: #f96b6b;
 }
 
 /* Navbar */
@@ -51,7 +55,9 @@ li {
 
 .banner__h1 {
     font-size: 4.4rem;
-    text-align: center;;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .seventy__percent__wrapper {
@@ -60,6 +66,7 @@ li {
     background-color: #fff;
     margin: auto;
     text-align: center;
+    padding-bottom: 15rem;
 }
 
 /* Intro */
@@ -80,6 +87,10 @@ li {
     grid-template-columns: 1fr 1fr;
 }
 
+.castles__castle {
+    margin-bottom: 7rem;
+}
+
 .castles__castle h4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -93,8 +104,8 @@ li {
 }
 
 .castles__castle img{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 270px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -116,13 +127,14 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
-    width: 70%;
     background-color: #e1eef7;
     padding-top: 3rem;
     padding-bottom: 3rem;
     line-height: 1.6rem;
     color: black;
     text-align: center;
+    background-color: #c9dbef;
+    border-top: 3px solid #f96b6b;
 }
 
 .footer__grid__div h4 {
@@ -145,27 +157,36 @@ li {
 
 /* Media */
 
-@media only screen and (max-width: 1000px) {
-    .temples__div {
+@media only screen and (max-width: 1200px) {
+    .seventy__percent__wrapper {
+        width: 100%;
+    }
+
+    .banner__h1 {
+        font-size: 3rem;
+    }
+
+    .castles__div {
         display: block;
+    }
+
+    .castles__castle img{
+        width: 70%;
+        height: 40%;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .navbar li {
         padding-right: 1rem;
         font-size: 0.8rem;
-    }
-
-    .seventy__percent__wrapper {
-        width: 100%;
     }
 
     .banner__div {
         height: 25vh;
     }
 
-    .footer__grid__div {
-        width: 100%;
+    .footer__grid__div a {
+        font-size: 0.8rem;
     }
 }
