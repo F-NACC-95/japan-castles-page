@@ -18,7 +18,7 @@ li {
 /* Banner */
 
 .banner__div {
-    height: 45vh;
+    height: 50vh;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -63,7 +63,7 @@ li {
 .seventy__percent__wrapper {
     padding-top: 4rem;
     width: 70%;
-    background-color: #fff;
+    background-color: #f9fbff;
     margin: auto;
     text-align: center;
     padding-bottom: 15rem;
@@ -72,9 +72,9 @@ li {
 /* Intro */
 
 .intro {
-    line-height: 4rem;
+    line-height: 2rem;
     text-align: left;
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -82,18 +82,18 @@ li {
 
 /* Castles */
 
-.castles__div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .castles__castle {
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
 }
 
 .castles__castle h4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.castles__castle a {
+    text-decoration: none;
+    color: #e56262;
 }
 
 .castles__castle p {
@@ -104,8 +104,8 @@ li {
 }
 
 .castles__castle img{
-    width: 400px;
-    height: 270px;
+    width: 65%;
+    height: 35%;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -130,10 +130,9 @@ li {
     background-color: #e1eef7;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    width: 70%;
     line-height: 1.6rem;
     color: black;
-    text-align: center;
-    background-color: #c9dbef;
     border-top: 3px solid #f96b6b;
 }
 
@@ -170,9 +169,8 @@ li {
         display: block;
     }
 
-    .castles__castle img{
-        width: 70%;
-        height: 40%;
+    .footer__grid__div {
+        width: 100%;
     }
 }
 
@@ -184,6 +182,12 @@ li {
 
     .banner__div {
         height: 25vh;
+    }
+
+    .castles__castle img{
+        width: 95%;
+        height: 55%;
+        border-radius: 0px;
     }
 
     .footer__grid__div a {
