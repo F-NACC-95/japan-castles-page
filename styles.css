@@ -98,15 +98,8 @@ li {
     color: #e56262;
 }
 
-.castles__castle p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 80%;
-    margin: auto;
-}
-
 .castles__castle img{
-    width: 65%;
+    width: 60%;
     height: 35%;
     object-fit: cover;
     border-radius: 5px;
@@ -117,10 +110,12 @@ li {
 }
 
 .castles__castle p {
-    width: 70%;
+    width: 60%;
     line-height: 2.2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin: auto;
+    text-align: left;
 }
 
 /* Footer */
@@ -197,6 +192,10 @@ li {
         width: 95%;
         height: 55%;
         border-radius: 0px;
+    }
+
+    .castles__castle p{
+        width: 90%;
     }
 
     .footer__grid__div a {
