@@ -27,6 +27,13 @@ li {
     border-bottom: 3px solid #f96b6b;
 }
 
+.banner__h1 {
+    font-size: 4.4rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .banner__div a:hover {
     color: #f96b6b;
 }
@@ -53,12 +60,7 @@ li {
     font-weight: bold;
 }
 
-.banner__h1 {
-    font-size: 4.4rem;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
+/* Wrapper */
 
 .seventy__percent__wrapper {
     padding-top: 4rem;
@@ -138,12 +140,14 @@ li {
 
 .footer__grid__div h4 {
     padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 .footer__grid__div a {
     color: black;
     text-decoration: none;
     line-height: 2rem;
+    padding-left: 1rem;
 }
 
 .footer__grid__div a:hover {
@@ -159,6 +163,11 @@ li {
 @media only screen and (max-width: 1200px) {
     .seventy__percent__wrapper {
         width: 100%;
+    }
+
+    .footer__grid__div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .banner__h1 {
