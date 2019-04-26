@@ -55,6 +55,11 @@ li {
     margin: auto;
 }
 
+.navbar h3:hover {
+    color: #e56262;
+    cursor: pointer;
+}
+
 .navbar li {
     padding-right: 4rem;
     font-size: 1.2rem;
