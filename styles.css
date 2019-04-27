@@ -144,10 +144,12 @@ li {
 }
 
 .castles__castle img{
-    width: 60%;
+    width: 80%;
     height: 35%;
     object-fit: cover;
     border-radius: 5px;
+    border-top: 3px solid #e56262;
+    border-bottom: 3px solid #e56262;
 }
 
 .castles__castle:hover{
